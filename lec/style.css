@@ -1,42 +1,31 @@
-body{
-    margin :0;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-h1{
-    color: black;
-    font-size: 60px;
+.red{
+    color:red;
+    background-color: yellow;
     text-align: center;
-    border-bottom: 1px solid black;
-    margin: 0;
-    padding: 20px;
 }
-ol{
-    border-right: 1px solid black;
-    width: 100px;
-    margin: 0;
-    padding: 20px;
+.border-blue{
+    border: 5px solid blue;
 }
-#grid{
-    display: grid;
-    grid-template-columns: 200px 1fr;
+.img-size{
+    width: 200px;
+    height: 200px;
 }
-#grid ol{
-    padding-left: 35px;
+.margin-space{
+    margin-top: 40px;
+    margin-left: 100px;
 }
-#title{
-    padding-left: 25px;
+.padding-space{
+    padding-top: 40px;
 }
-@media(max-width:500px){
-    #grid{
-        display: block;
-    }
-    ol{
-        border-right: none;
-    }
-    h1{
-        border-bottom: none;
-    }s
+//div.new-style dic 태그가 있는 class가 new-style인 태그만 선택
+div.new-style{
+    color: red;
+}
+//div .new-style div 태그 아래에 있는 모든 자손들 중 스타일이 new-style인 태그
+div .new-style{
+    color: red;
+}
+//div>.new-style 태그 아래에 있는 자손 중 완전 direct 자손만 적용
+div>.new-style{
+    color: red;
 }
