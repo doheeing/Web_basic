@@ -1,0 +1,28 @@
+.mother{
+    border: 1px solid red;
+    height: 100vh;
+
+}
+.childred{
+
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+.childred1{
+    background-color:gray;
+    position: absolute;
+    left: 70vh;
+    top:100px;
+    height: 500px;
+    width: 500px;
+}
+.childred2{
+    background-color:black;
+    position: absolute;
+    left: 90vh;
+    top:150px;
+    height: 200px;
+    width: 200px;
+    
+}
